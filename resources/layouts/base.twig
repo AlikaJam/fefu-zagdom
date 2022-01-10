@@ -9,12 +9,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ asset('css/main.css') }}">
 </head>
+
 <body class="antialiased">
   <div class="layout">
   <header class="layout_header">
     {% include '@components/header/header.twig' %}
   </header>
-
+  
   <main class="layout_main">
     {% block main %}{% endblock %}
   </main>
@@ -22,6 +23,7 @@
   <footer class="layout_footer"></footer>
     {% include '@components/footer/footer.twig' %}
   </div>
+
   <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
