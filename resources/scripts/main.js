@@ -1,2 +1,4 @@
-require('./bootstrap');
-console.log('hello world!')
+import './bootstrap';
+import './header';
+import './modaiWindow';
+import './slider';
