@@ -1,2 +1,2 @@
 require('./bootstrap');
-console.log("Hello, world!")
+console.log('hello world!')
