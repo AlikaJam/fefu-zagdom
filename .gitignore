@@ -1,11 +1,10 @@
 /node_modules
-
 /public/hot
+/public/storage
 /public/js
 /public/css
 /public/build
 /public/mix-manifest.json
-/public/storage
 
 package-lock.json
 
@@ -14,11 +13,13 @@ package-lock.json
 
 .env
 .env.backup
-.phpunit.result.cache
 
+.phpunit.result.cache
 docker-compose.override.yml
+
 Homestead.json
 Homestead.yaml
+
 npm-debug.log
 yarn-error.log
 
